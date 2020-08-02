@@ -630,7 +630,9 @@ section {
 .why-us .content h3 {
   font-weight: 700;
   font-size: 34px;
-  margin-bottom: 30px;
+  padding-top: 80px;
+  padding-left: 30px;
+  margin-bottom: 0px;
 }
 
 .why-us .content p {
@@ -1565,4 +1567,8 @@ section {
 
 #nav-homepage{
   margin-left: auto;
+}
+
+.text-center{
+  padding-top: 30px;
 }
