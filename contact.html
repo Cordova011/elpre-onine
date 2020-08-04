@@ -41,52 +41,26 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
+    <a href="index.html">
+      <img src="assets/img/logo.png" alt="LOGO" width="100">
+    </a>
+      
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-        <a href="index.html">
-            <img src="assets/img/logo.png" alt="LOGO" width="100">
-          </a>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-  
-        <nav id="nav-homepage" class="nav-menu d-none d-lg-block">
-          <ul>
-              <li class="active"><a href="index.html">Inicio</a></li>
-              <li><a href="courses.html">Academia</a></li>
-              <li><a href="temario.html">Temario</a></li>
-              <li><a href="info.html">Informacion EAES</a></li>
-              <li><a href="about.html">Conocenos</a></li>
-              <li><a href="pricing.html">Precios</a></li>
-              <li class="drop-down"><a href="">Formas EAES</a>
-                <ul>
-                  <li class="drop-down"><a href="#">Biologia</a>
-                    <ul>
-                        <li><a href="#">Forma 1</a></li>
-                        <li><a href="#">Deep Drop Down 2</a></li>
-                        <li><a href="#">Deep Drop Down 3</a></li>
-                        <li><a href="#">Deep Drop Down 4</a></li>
-                        <li><a href="#">Deep Drop Down 5</a></li>
-                      </ul>
-                  </li> <!--Drop Biologia-->
-                  <li class="drop-down"><a href="#">Matematica</a>
-                    <ul>
-                      <li><a href="#">Forma 1</a></li>
-                      <li><a href="#">Deep Drop Down 2</a></li>
-                      <li><a href="#">Deep Drop Down 3</a></li>
-                      <li><a href="#">Deep Drop Down 4</a></li>
-                      <li><a href="#">Deep Drop Down 5</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Drop Down 2</a></li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
-                </ul>
-              </li> <!--Drop Matematica-->
-              <li><a href="contact.html">Contactanos</a></li>
-    
-            </ul>
-          </nav><!-- .nav-menu -->
-
-          <a href="courses.html" class="get-started-btn">Inicia Sesión/Registrate</a>
+      <nav id="nav-homepage" class="nav-menu d-none d-lg-block">
+        <ul >
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="courses.html">Cursos</a></li>
+          <!-- <li><a href="temario.html">Temario</a></li>
+          <li><a href="info.html">Blog</a></li>
+          <li><a href="pricing.html">Precios</a></li> -->
+          <li><a href="#features">Temario EAES</a></li> <!--Drop Matematica-->
+          <li class="active"><a href="contact.html">Contactanos</a></li>
+          <li><a href="pricing.html">Precios</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->     
+      <button href="courses.html" class="get-started-btn">Accede Gratis</a>
 
     </div>
   </header><!-- End Header -->
@@ -96,16 +70,15 @@
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs" data-aos="fade-in">
       <div class="container">
-        <h2>Contact Us</h2>
-        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+        <h2>Contactos</h2>
+        <p>
+          Estamos gustosos de atender todas tus dudas.
+        </p>
       </div>
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div data-aos="fade-up">
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-      </div>
+    <section id="contact" class="contact">     
 
       <div class="container" data-aos="fade-up">
 
@@ -115,20 +88,20 @@
             <div class="info">
               <div class="address">
                 <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>QUITO, ECUADOR:</h4>
+                <p>Páez N19-26 y Av. Patria, Edificio</p>
               </div>
 
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>tensorcursos@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>TELEFONO:</h4>
+                <p>+593 98 683 7206</p>
               </div>
 
             </div>
@@ -140,37 +113,33 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" data-rule="minlen:4" data-msg="Por favor, al menos ingrese 4 letras" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" data-rule="email" data-msg="Por favor ingrese un correo valido" />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Tema" data-rule="minlen:4" data-msg="Por favor almenos ingrese 8 letras" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escriba algo para nosotros" placeholder="Mensaje"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
-                <div class="loading">Loading</div>
+                <div class="loading">Cargando</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
             </form>
-
           </div>
-
         </div>
-
       </div>
     </section><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
