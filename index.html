@@ -30,6 +30,7 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/countdown.css" rel="stylesheet" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -58,7 +59,7 @@
         <ul>
           <li class="active"><a href="index.html">Inicio</a></li>
           <li><a href="courses.html">Cursos</a></li>
-          <li><a href="contact.html">Contactanos</a></li>
+
           <li><a href="pricing.html">Precios</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -118,36 +119,17 @@
     </div>
   </section><!-- End Beneficios Section -->
 
-  <!-- ======= Counts Section ======= -->
-  <section id="counts" class="counts section-bg">
-    <div class="container">
-
-      <div class="row counters">
-
-        <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">1232</span>
-          <p>Estudiantes</p>
-        </div>
-
-        <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">64</span>
-          <p>Formas EAES</p>
-        </div>
-
-        <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">42</span>
-          <p>Simuladores</p>
-        </div>
-
-        <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">+100</span>
-          <p>Videos Educativos</p>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Counts Section -->
+  <!-- countdown section -->
+  <div class="rounded bg-gradient-1 text-white shadow p-5 text-center mb-5">
+    <p class="mb-4 font-weight-bold text-uppercase">
+      Próximo examen del EAES en:
+    </p>
+    <div id="clock" class="countdown-circles d-flex flex-wrap justify-content-center pt-4"></div>
+    <br>
+    Primeras semanas de septiembre 2020 <br>
+    Las fechas exactas se publicarán en este espacio cuando se oficialicen.
+  </div>
+  <!-- end countdown section -->
 
   <!-- ======= Why Us Section ======= -->
   <section id="why-us" class="why-us">
@@ -166,7 +148,7 @@
         <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-boxes d-flex flex-column justify-content-center">
             <div class="row">
-              
+
               <div class="col-xl-4 d-flex align-items-stretch">
                 <div class="icon-box mt-4 mt-xl-0">
                   <img src="assets/img/why1.jpg" style="max-width:30%;" alt="...">
@@ -380,6 +362,7 @@
             </p><br>
             <p>
               <strong>Email:</strong> trentocursos@gmail.com<br>
+              <strong>Telefono:</strong> +593 98 683 7206
             </p>
           </div>
 
@@ -394,7 +377,7 @@
             <ul>
               <li class="active"><i class="bx bx-chevron-right"></i><a href="index.html">Inicio</a></li>
               <li class="active"><i class="bx bx-chevron-right"></i><a href="courses.html">Cursos</a></li>
-              <li class="active"><i class="bx bx-chevron-right"></i><a href="contact.html">Contactanos</a></li>
+
               <li class="active"><i class="bx bx-chevron-right"></i><a href="pricing.html">Precios</a></li>
             </ul>
             <a href="https://aprende.elpre.net/" class="get-started-btn">Accede Gratis</a>
@@ -425,6 +408,9 @@
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+
+  <script src="assets/vendor/jquery.countdown.min.js"></script>
+  <script src="assets/vendor/countdown.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
