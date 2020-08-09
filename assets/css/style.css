@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 #why {
   width: 100%;
   height: 80vh;
-  background: url("../img/why.png") top center;
+  background: url("../img/why.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -509,7 +509,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero2 {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero2.png") top center;
+  background: url("../img/hero2.jpg") top center;
   background-size: cover;
   position: relative;
 }
