@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   display: none;
   right: 100px;
-  bottom: 30px;
+  bottom: 20px;
   z-index: 99999;
 }
 
